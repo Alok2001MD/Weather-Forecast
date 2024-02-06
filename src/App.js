@@ -15,7 +15,7 @@ class App extends React.Component {
 
   // creates the day objects and updates the state
   updateState = data => {
-    const city = data.city.name;
+    const city = data.city.name; //name
     const days = [];
     const dayIndices = this.getDayIndices(data);
 
